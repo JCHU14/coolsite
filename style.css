@@ -1,0 +1,90 @@
+header {
+    background-color: #061130;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #061130;
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh;
+}
+
+nav>p {
+    color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex !important;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+h1 {
+    color: white;
+    max-width: 55%;
+    padding-left: 95px;
+}
+
+body {
+    background-color: #061130;
+}
+
+div>p {
+    color: white;
+    font-size: larger;
+    max-width: 50%;
+    padding-left: 100px;
+}
+
+.longtext {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #f4f6f8;
+    padding: 30px 30px 30px;
+}
+
+.footertext1 {
+    display: flex;
+    color: blue;
+    justify-content: space-around;
+}
+
+footer>p {
+    text-decoration-line: underline;
+}
+
+button {
+    background-color: blue;
+    border-radius: 15%;
+    color: #f4f6f8;
+}
+
+.Services {
+    color: yellow;
+}
+
+h2 {
+    text-align: center;
+}
+
+.end {
+    background-color: lightgray;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.endtext {
+    color: #061130 !important;
+    text-align: center;
+    font-size: large;
+}
